@@ -14,12 +14,12 @@ import os
 #print "内网ip:",ip
 #print "公网ip:",internetip
 
-sender = 'iknowing@163.com'
-receiver = 'liubo@vbuluo.com'
+sender = '----@163.com'
+receiver = '******'
 subject = 'Python email test'
 smtpserver = 'smtp.163.com'
-username = 'iknowing@163.com'
-password = '61659660'
+username = '-----@163.com'
+password = '******'
 tet = time.strftime('%Y/%m/%d %H:%M:%S',time.localtime())
 internetip = os.popen("curl -s ifconfig.me").read()
 #print ip_old.read()
