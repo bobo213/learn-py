@@ -1,5 +1,6 @@
 __author__ = 'Administrator'
 # -*- coding: utf-8 -*-
+# 监控本机的公网ip，如果ip有变化则发邮件
 import os
 import smtplib
 from email.MIMEText import MIMEText
