@@ -21,16 +21,13 @@ smtpserver = 'smtp.163.com'
 username = 'iknowing@163.com'
 password = '61659660'
 tet = time.strftime('%Y/%m/%d %H:%M:%S',time.localtime())
-#internetip = os.popen("curl -s ifconfig.me").read()
+internetip = os.popen("curl -s ifconfig.me").read()
 #print ip_old.read()
 #print "ip_old=",(ip_old.read())
 #print "internetip=",(internetip)
-
-f = open('internetip.txt','r')
-internetip = f.readline()
+ 
 f2 = open('ip_old.txt','r')
 ip_old = f2.readline()
-f.close()
 f2.close()
 
 if  ip_old == internetip :
