@@ -16,12 +16,12 @@ import os
 #print "内网ip:",ip
 
 #邮件配置
-sender = 'iknowing@163.com'
-receiver = 'liubo@vbuluo.com'
+sender = 'xx@163.com'
+receiver = 'xx@123.com'
 subject = 'Python email test'
 smtpserver = 'smtp.163.com'
-username = 'iknowing@163.com'
-password = '61659660'
+username = 'xx@163.com'
+password = '123'
 
 # 时间戳
 tet = time.strftime('%Y/%m/%d %H:%M:%S',time.localtime())
