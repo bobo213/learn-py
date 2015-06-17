@@ -14,4 +14,6 @@ print time.asctime( time.localtime(time.time()) )
 
 print time.strftime("%Y-%m-%d-%A %X", time.localtime())
 
-print time.strftime('%Y/%m/%d %H-%M-%S',time.localtime())
+tet = time.strftime('%Y/%m/%d %H-%M-%S',time.localtime())
+
+print tet

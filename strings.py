@@ -19,3 +19,4 @@ if (ip3 == ip1):
     print ip1
 else:
     print cmp(ip1,ip3)
+print "My name is %s and weight is %d kg!" %('z1',21)
